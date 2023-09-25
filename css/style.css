@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 0 auto;
+    background-color: #1d2a35;
+    width: 400px;
+    height: 800px;
+    font-family: 'roboto', 'sans-serif';
+    color: whitesmoke;
+}
+
+
+
+#top_bar{
+    width: 400px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: #d77bf6;
+}
+
+#square{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgba(219, 123, 246, 0.8);
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+#subscribe{
+    font-size: 36px;
+    margin-left: 45px;
+    margin-top: -25px;
+}
+
+#form_subscribe{
+    width: 340px;
+    height: 650px;
+    background-color: #38444d;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#label_name{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#name_input{
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    outline: 1px solid #d77bf6;
+    border: none;
+    margin-left: 20px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    background-color: #1d2a35;
+}
+
+#label_email{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#email_input{
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    outline: 1px solid #d77bf6;
+    border: none;
+    margin-left: 20px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    background-color: #1d2a35;
+}
+
+#label_pswrd{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#pswrd_input{
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    outline: 1px solid #d77bf6;
+    border: none;
+    margin-left: 20px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    background-color: #1d2a35;
+}
+
+#eye{
+    margin-left: 300px;
+    margin-bottom: 38px;
+    margin-top: -50px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+#label_cep{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#label_number{
+    padding-left: 127px;
+}
+
+#cep_input{
+    border-radius: 5px;
+    width: 140px;
+    height: 35px;
+    outline: 1px solid #d77bf6;
+    border: none;
+    margin-left: 20px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    background-color: #1d2a35;
+}
+
+#number_input{
+    border-radius: 5px;
+    width: 130px;
+    height: 35px;
+    outline: 1px solid #d77bf6;
+    border: none;
+    margin-left: 20px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    background-color: #1d2a35;
+}
+
+#label_city{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#city_select{
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    outline: 1px solid #d77bf6;
+    border: none;
+    margin-left: 20px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #1d2a35;
+    color: whitesmoke;
+}
+
+#terms_input{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+#label_terms{
+    margin-left: 5px;
+}
+
+#label_street{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#street_input{
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    outline: 1px solid #d77bf6;
+    border: none;
+    margin-left: 20px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    background-color: #1d2a35;
+}
+
+#label_signin{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 15px;
+    
+}
+
+#signin_submit{
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    outline: 1px solid #5c0f75;
+    background-color: #d77bf6;
+    color: #5c0f75;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
